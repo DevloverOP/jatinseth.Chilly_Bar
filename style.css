@@ -283,8 +283,11 @@ section::after {
   width: 100%;
   margin: auto;
   align-items: center;
-  
 }
+.item:nth-child(2n){
+  flex-direction: row-reverse;
+}
+
 
 .desc {
   height: auto;
